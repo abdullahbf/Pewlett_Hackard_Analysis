@@ -2,7 +2,7 @@
 
 ## Purpose/Objective:
 
-The purpose of this repository was to use PostgresSQL to analyze the employee data at "Pewlett Hackard" to gain insights about the employees retiring. "queries.sql" contains the initial queries used to create the tables and establish primary and foreign keys using "EmployeeDB.png" as reference. "EmployeeDB.png" is an Entity Relationship Diagram created using "QuickDBD". "Employee_Database_Challenge.sql" contains the queries that were used to obtain the following data:
+The purpose of this repository was to analyze the employee data at "Pewlett Hackard" and gain insights about the employees retiring using PostgresSQL. "queries.sql" contains the initial queries used to create the tables and establish primary and foreign keys using "EmployeeDB.png" as reference. "EmployeeDB.png" is an Entity Relationship Diagram created using "QuickDBD". "Employee_Database_Challenge.sql" contains the queries that were used to obtain the following data:
 
 1) Number of retirement age employees by most recent job title (excluding the people who have already left the company).
 
@@ -47,5 +47,32 @@ Columns from three tables, employees, dept_emp and titles, were joined (this tim
 Only 1549 employees were eligible for the program. 
 
 ## Summary
+
+
+### Mentorship program 
+
+<img width="311" alt="Screen Shot 2022-02-11 at 12 00 49 PM" src="https://user-images.githubusercontent.com/92544151/153636128-359c2eb8-7e88-465b-8a3e-b0774b6cbdcf.png">
+<img width="235" alt="Screen Shot 2022-02-11 at 12 01 06 PM" src="https://user-images.githubusercontent.com/92544151/153636138-fd8a55f6-16b7-4ad7-9654-f301e4e847ee.png">
+
+As the query and the results show, most of the employees eligible for the program are senior staff. Now, assuming that all the people in retirement_titles.csv retire, we can get the following ratios of "new hires : possible mentors"   
+
+Senior Engineers   - 25916 : 169  - 153.3 new hires per mentor
+
+Engineers          - 9285  : 501  - 18.5 new hires per mentor
+
+Senior Staff       - 24926 : 569  - 43.8 new hires per mentor
+
+Staff              - 7636  : 155  - 49.3 new hires per mentor 
+
+Assistant Engineer - 1090  : 78   - 14 new hires per mentor
+
+Technique Leader   - 3603  : 77   - 46.8 new hires per mentor 
+
+Manager            -    2  : 0    - No managers eligible for mentoring
+
+The ratios show that there are clearly not enough senior engineers eligible for mentoring. The ratios are also high for senior staff, staff and technique leaders. 
+
+
+
 
 
