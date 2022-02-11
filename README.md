@@ -48,6 +48,12 @@ Only 1549 employees were eligible for the program.
 
 ## Summary
 
+### Number of people retiring
+
+<img width="188" alt="Screen Shot 2022-02-11 at 12 29 32 PM" src="https://user-images.githubusercontent.com/92544151/153639822-371ca54f-1369-474f-bd80-398af22ccd8b.png">
+<img width="99" alt="Screen Shot 2022-02-11 at 12 29 27 PM" src="https://user-images.githubusercontent.com/92544151/153639837-b5b6dd79-d41e-43f6-8411-23f38f9b1bc2.png">
+
+The query and the result shows that the company will have to replace 72,458 employees current employees in the near future. This is assuming that each employee retires as soon as they are eligible. 
 
 ### Mentorship program 
 
